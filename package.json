@@ -1,0 +1,28 @@
+{
+  "name": "zipfy-bot",
+  "version": "1.0.0",
+  "description": "ZipFy - Telegram Archive Extractor Bot",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "nodemon src/bot.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "better-sqlite3": "^9.4.3",
+    "axios": "^1.6.8",
+    "node-7z": "^3.0.0",
+    "adm-zip": "^0.5.10",
+    "tar": "^6.2.1",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "mime-types": "^2.1.35",
+    "p-limit": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
